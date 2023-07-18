@@ -1,0 +1,21 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --gray-color: hsl(220, 15%, 55%);
+
+    --primary-100: hsl(212, 45%, 89%);
+    --secondary-100: hsl(218, 44%, 22%);
+    --secondary-200: #2c7dfa;
+
+    --h1-font: clamp(32px, 2.083vw, 40px);
+    --h2-font: clamp(24px, 1.458vw, 28px);
+    --h3-font: clamp(22px, 1.250vw, 24px);
+    --h4-font: clamp(18px, 1.042vw, 20px);
+    --h5-font: clamp(16px, 0.938vw, 18px);
+
+    --base-font: clamp(14px, 0.833vw, 16px);
+
+    --outfit-font: 'Outfit', var(--font-fall-back);
+    --font-fall-back: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+        "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
